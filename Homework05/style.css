@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "GilroyRegular";
+    src: url("./fonts/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.top_advertising {
+    display: flex;
+    gap: 30px;
+}
+
+.offer {
+    width: 370px;
+    height: 291px;
+    margin-top: 100px;
+    margin-bottom: 192px;
+    border: 1px;
+}
+
+.shadow_box {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.offer_icon {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.offer_title {
+    padding-left: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer_paragraph {
+    padding-top: 17px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    color: #666;
+    font-family: "GilroyRegular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.offer_link {
+    padding-left: 30px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_title {
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_paragraph {
+    width: 682px;
+    padding-top: 19px;
+    padding-bottom: 54px;
+    color: #666;
+    text-align: center;
+    font-family: "GilroyRegular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content__offer {
+    display: flex;
+}
+
+.big_offer {
+    width: 370px;
+    height: 549px;
+    margin-bottom: 100px;
+}
+
+.big_offer p {
+    color: #AAA;
+}
+
+.offer_img {
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.content_button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: 0;
+}
+
+.learn_more {
+    color: #FFF;
+    text-align: center;
+    font-family: "GilroyBold";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
