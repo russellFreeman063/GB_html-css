@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FFF
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("./fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url("./fonts/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.header__logo {
+    display: flex;
+    width: 35px;
+    height: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 14px;
+    align-items: center;
+}
+
+.logo_title1 {
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.logo_title2 {
+    color: #F25822;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 600px;
+}
+
+.link__home {
+    color: #F25822;
+    font-family: "GilroySemiBold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.links {
+    color: #000;
+    font-family: "GilroyMedium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.center {
+    padding-left: calc(50% - 586px);
+    padding-right: calc(50% - 586px);
+}
+
+.top {
+    display: flex;
+    gap: 41px;
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 167px;
+}
+
+.text_title {
+    width: 522px;
+    color: #000;
+    font-family: "GilroyBold";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_paragraph {
+    width: 466px;
+    color: #888;
+    font-family: "GilroyMedium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 17px;
+}
+
+.content_buttons {
+    display: flex;
+    padding-top: 37px;
+    gap: 72px;
+    align-items: center;
+}
+
+.content_button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: 0;
+}
+
+.start_now_button {
+    color: #FFF;
+    font-family: "GilroyBold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content_button_video {
+    background-color: #FFF;
+    width: 90px;
+    height: 19px;
+    border: 0;
+}
+
+.watch_video_button {
+    color: #AAA;
+    font-family: "GilroyBold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-image {
+    width: 544px;
+    height: 374px;
+}
+
+.top_logo__brands {
+    display: flex;
+    gap: 48px;
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+.brand_logo {
+    width: 160px;
+    height: 50px;
+}
