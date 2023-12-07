@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.header {
+    height: 75px;
+    background: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.top {
+    display: flex;
+    background-color:#F1E4E6;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.top__brand-img {
+    width: 50%;
+}
+
+.brand-img {
+    width: 100%;
+}
+
+.top__brand-info {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 63px;
+}
+
+.brand-panel {
+    width: 12px;
+    height: 92px;
+    border-left: 12px solid #F16D7F;
+    
+}
+
+.brand-title {
+    color: #222;
+    font-family: "Lato";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.brand-heading {
+    color: #222;
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.brand-heading2 {
+    color: #F16D7F;
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.categories {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.categories__item {
+    position: relative;
+    background: rgba(33, 22, 22, 0.70);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.categories-img {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.categories__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories_big {
+    min-height: 180px;
+    grid-column: 1 / -1;
+}
+
+.categories__text {
+    color: #FFF;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categories__heading {
+    color: #F16D7F;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offers {
+    padding-bottom: 100px;
+}
+
+.offers__heading {
+    color: #222;
+    font-family: "Lato";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.offers__text {
+    color: #9F9F9F;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.offers__content {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.offer-center-img {
+    padding-left: 108px;
+    padding-right: 110px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    background-color: #F7E4E2;
+}
+
+.offer__content {
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 16px;
+    gap: 16px;
+}
+
+.offer__heading {
+    color: #000;
+    font-family: "Lato";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer__text {
+    color: #5D5D5D;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.offer__price {
+    color: #F16D7F;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.browse_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+
+.browse_button_button {
+    width: 212px;
+    height: 48px;
+    border-color: #FF6A6A;
+}
+
+.browse_button_text {
+    color: #F26376;
+    font-family: "Lato";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 512px);
+        padding-right: calc(50% - 512px);
+    }
+
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
+    .brand-title {
+        font-size: 44px;
+    }
+
+    .brand-heading {
+        font-size: 24px;
+    }
+
+    .categories {
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 20px;
+    }
+
+    .categories_big {
+        min-height: 116px;
+    }
+
+    .offers__content {
+        gap: 16px;
+    }
+}
