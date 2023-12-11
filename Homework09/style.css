@@ -230,11 +230,11 @@ a {
     line-height: normal;
 }
 
-.offer_card:hover .offer__img {
+.offer:hover .offer__img {
     z-index: -1;
 }
 
-.offer_card:hover .offer_button {
+.offer:hover .offer_button {
     display: flex;
 }
 
@@ -356,6 +356,7 @@ a {
 .subscribe {
     display: flex;
     background: linear-gradient(rgba(244, 244, 244, 0.70) 100%, rgba(244, 244, 244, 0.70)100%), url(./img/subscribe_back.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
 }
@@ -473,7 +474,7 @@ a {
 }
 
 .sub_box_form_button:hover {
-    border: 1px solid rgba(34, 34, 36, 1);
+    box-shadow: #F16D7F;
     cursor: pointer;
 }
 
